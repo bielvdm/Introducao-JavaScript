@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: rgb(112, 167, 2);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>INICIANDO DOM</h1>
+    <P>Aqui vai o resultado</P>
+    <div class="texto">Clique em sim</div>
+
+    <script>
+         var a = window.document.getElementsByTagName('P')[0]
+         var b = window.document.getElementsByClassName('texto')[0]
+         var c = window.document.querySelector('div.texto')
+         c.style.background = 'green'
+    </script>
+</body>
+</html>

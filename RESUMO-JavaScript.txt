@@ -1,0 +1,43 @@
+AULAS JAVA SCRIPT
+
+AULA 04 -
+
+Comandos aprendidos 
+
+- alert.('qlqr coisa') -> mandar aql msg na janela no navegador ao abrir
+
+- confirm.('qlqr coisa') -> manda uma msg de confirmaçao, tipo aql p autorizar notificaçoes
+
+- prompt.('qlqr coisa') -> manda uma caixa de texto p escrever na janela do navegador
+
+
+
+AULA 06 -
+
+- varíaveis e conversões
+
+- number -> conteudo ex: var n1 = Number.parseInt(prompt('digite o primeiro numero')) 
+             |-> pergunta ao usuário qual é o numero, mas o converto para number, para conseguir fazer a soma
+
+- string -> conteudo: geralmente uma variavel, igual o number, faz a msm coisa so q p string
+
+- ToString() -> converte p string tbm, mas p usar tem q ter essa estrutura: "variavelqlqr.ToString()" 
+
+- place holder java script -> jeito de escrever igual a concatenaçao do c#, mas é assim: `(n esquece do ascento) blabla ${variavel} blabla ${variavel}`
+              |-> da p escrever com interpolação tb, igual ao c#, msm estrutura
+
+- toFixed() -> p mexer no numero 
+- toFixed(2).replace('.' , ',') -> troca a virgula p ponto p exemplo, serve p mexer na estrutura do numero
+
+- toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL' ) -> serve p deixar em um numero em formato currency (monetário)
+
+AULA 07 -
+
+- operadores
+- + - * / -> msm lógica q o c#, (mais, menos, multiplicar e dividir)
+- % -> oq resta da multiplicaçao INTEIRA (tp, 5 divido p dois, na estrutura primeiro vem dois, sobre um e p continuar poe a virgula e um zero
+                                          mas nesse operador eles n continuam a conta, e o resultado q ele dá é oq resta, no caso o 1)
+- ** -> potencia
+- === -> qunado é identico, tipo 5 == '5' -> true , mas 5 === '5' -> false, pq um é number e o outro string
+- ternário -> ? e : -> significa assim: 5>= 7? é maior : é menor -> o da direita significa true, e o da esquerda false
+                                                         então se for true, ele vai escrever é maior

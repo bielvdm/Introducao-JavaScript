@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistemas de multas</h1>
+    <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div class="res">
+    <br>
+    <h1>Você é gringo?</h1>
+    <input type="text" placeholder="Digite o país q vc nasceu" id="txtgringo">
+    <input type="button" value="Descubra" onclick="ver()">
+    <div class="res11">
+
+    <script>
+        function calcular(){
+            var txtv = window.document.getElementById('txtvel')
+            var res = window.document.querySelector('div.res')
+            var vel = Number(txtv.value)
+            res.innerHTML = `Sua velocidade é de ${vel}km/h`
+            if(vel>60){
+                res.innerHTML = `<p>Você foi multado por excesso de velocidade<p>`
+            }else{
+                res.innerHTML += `<p> dirija com segurança<p>`
+            }
+        }
+        
+    </script>
+
+    <script>
+        function ver(){
+            var pais = window.document.getElementById('txtgringo')
+            var res1 = window.document.querySelector('div.res11')
+            var paiss = String(pais.value)
+            if(paiss != "brasil"){
+                res1.innerHTML= `<p>ufa é gringo<p>`
+            }else{
+                res1.innerHTML= `<p>você é br fiokk<p>`
+            }
+        }
+    </script>
+</body>
+</html>
