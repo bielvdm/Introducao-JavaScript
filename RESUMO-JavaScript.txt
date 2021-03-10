@@ -41,3 +41,30 @@ AULA 07 -
 - === -> qunado é identico, tipo 5 == '5' -> true , mas 5 === '5' -> false, pq um é number e o outro string
 - ternário -> ? e : -> significa assim: 5>= 7? é maior : é menor -> o da direita significa true, e o da esquerda false
                                                          então se for true, ele vai escrever é maior
+
+AULA 15 -
+
+Vetores-
+
+(variavelqlqr).indexOf(valor da variavel) -> ele vai dar a posiçao da variável no array
+(variavelqlqr).push(valor da variavel q vai ser adicionado) -> ele adiciona um valor em um array
+(variavelqlqr).sort() -> ele ordena os valores de um array em ordem alfabetica 
+
+for((criaçao de uma nova variavel) in (nome do array) {
+     codigo a ser executado
+}
+
+|-> esse for faz a apresentação do array
+
+AULA 17 -
+
+O que estudar agora?
+
+- Mais sobre *funções*
+- objetos
+- modularização
+- expressões regulares
+- json
+- react
+- ajax
+- node js
